@@ -12,19 +12,25 @@ pipeline{
         stage('Build windows'){
           steps{
             echo "Executing Task 1"
-            script{sleep(2) echo "Task 1 completed :Building for Windows "}
+            script{
+              sleep(2) 
+              echo "Task 1 completed :Building for Windows "}
           }
         }
         stage('Build Linux'){
           steps{
             echo "Executing Task 2 : Building for Linux"
-            script{sleep(2) echo "Task 2 completed "}
+            script{
+              sleep(2)
+              echo "Task 2 completed "}
           }
         }
         stage('Build Macos'){
           steps{
             echo "Executing Task 3 : Building for MAC"
-            script{sleep(2) echo "Task 3 completed "}
+            script{
+              sleep(2) 
+              echo "Task 3 completed "}
           }
         }
       }
