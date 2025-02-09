@@ -13,7 +13,7 @@ pipeline{
           steps{
             echo "Executing Task 1"
             script{
-              sleep(2) 
+              sleep(4) 
               echo "Task 1 completed :Building for Windows "}
           }
         }
