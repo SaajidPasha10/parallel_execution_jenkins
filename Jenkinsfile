@@ -21,7 +21,7 @@ pipeline{
           steps{
             echo "Executing Task 2 : Building for Linux"
             script{
-              sleep(2)
+              sleep(6)
               echo "Task 2 completed "}
           }
         }
@@ -29,7 +29,7 @@ pipeline{
           steps{
             echo "Executing Task 3 : Building for MAC"
             script{
-              sleep(2) 
+              sleep(5) 
               echo "Task 3 completed "}
           }
         }
